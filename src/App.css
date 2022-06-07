@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+.App {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  color: fuchsia;
+  background-color: rgba(0, 0, 0);
+  padding: 20px;
+  border-radius: 10%;
+  border: 2px;
+  border-style: solid white;
+}
+.counter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 20px;
+}
+
+.counter h1 {
+  color: white;
+  font-size: 90px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.counter_output {
+  font-size: 90px;
+  font-weight: bold;
+  color: fuchsia;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 0%;
+}
+
+.button_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.control_button {
+  font-size: 40px;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10%;
+  color: rgb(16, 0, 54);
+  border: 1px solid rgb(16, 0, 54);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-family: "Permanent Marker", cursive;
+}
+
+.control_button:hover {
+  background-color: rgb(16, 0, 54);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(16, 0, 54);
+}
+
+.reset {
+  width: 150px;
+  font-size: 35px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10%;
+  background-color: white;
+  color: rgb(16, 0, 54);
+  border: 1px solid rgb(16, 0, 54);
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  font-family: "Permanent Marker", cursive;
+}
+
+.reset:hover {
+  background-color: rgb(16, 0, 54);
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(16, 0, 54);
+}
